@@ -1,0 +1,52 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent{
+/* From https://css.glass */
+background: rgba(192, 175, 175, 0.11);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+-webkit-backdrop-filter: blur(12.7px);
+backdrop-filter: blur(12.7px);
+border: 1px solid rgba(192, 175, 175, 0.3);
+}
+.modal-content {
+  opacity: 1 !important;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainbody {
+  z-index: 10;
+  padding-top: 8px;
+  
+}
+.closeIcon {
+  color: red;
+  cursor: pointer;
+
+}
+.close{
+  background: #000;
+  width: 120px;
+  height: 36px;
+  margin: 2px;
+  margin-top: 8px;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+
+}
